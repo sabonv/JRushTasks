@@ -18,7 +18,7 @@ public class Circle {
 
     public Circle(double x, double y) {
         //напишите тут ваш код
-        Circle (x, y, 10.0);
+        this (x, y, 10);
 
     }
 
