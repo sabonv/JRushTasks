@@ -5,17 +5,15 @@ package com.javarush.task.task14.task1408;
  */
 public class RussianHen extends Hen {
 
-
-
     @Override
-    int getCountOfEggsPerMonth() {
+    public int getCountOfEggsPerMonth() {
         return 5;
     }
 
     @Override
-    String getDescription() {
+    public String getDescription() {
 
-        String out = super.getDescription() + " Моя страна - " + "county" + " Я несу " + this.getCountOfEggsPerMonth() + " яиц в месяц.";
+        String out = super.getDescription() + " Моя страна - " + Country.RUSSIA + ". Я несу " + this.getCountOfEggsPerMonth() + " яиц в месяц.";
         return out;
     }
 }
