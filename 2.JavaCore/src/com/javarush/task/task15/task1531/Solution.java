@@ -21,17 +21,17 @@ public class Solution {
 
     public static String factorial(int n) {
         //add your code here
-        //int temp = 0;
+        if (n == 0) return String.valueOf(1);
+        if (n < 0) return String.valueOf(0);
 
-        if (n > 0) return String.valueOf(n * Integer.valueOf(factorial(n-1)));
+        BigDecimal ret = BigDecimal.ONE;
+        for (int i = 1; i <= n; ++i) {
+            ret = ret.multiply(BigDecimal.valueOf(i));
+        }
+        return String.valueOf(ret);
 
-        //else if (n == 0) return "0! = 1";
-        else if (n < 0 ) return "0";
-
-        return null;
 
 
     }
 }
 
-//String.valueOf(n) + "! = " +
