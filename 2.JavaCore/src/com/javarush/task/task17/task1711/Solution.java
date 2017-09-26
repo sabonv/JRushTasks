@@ -25,27 +25,6 @@ public class Solution {
         //start here - начни тут
         if(args.length > 1) {
 
-//            if (args[0].equals("-c")) {
-//                create(args);
-//            } else if (args[0].equals("-u")) {
-//                update(args);
-//            }
-//
-//            else if (args[0].equals("-d")) {
-//                for (int i = 1; i < args.length; i++) {
-//                    delete(Integer.parseInt(args[i]));
-//                }
-//
-//            }
-//
-//            else if (args[0].equals("-i")) {
-//
-//                for (int i = 1; i < args.length; i++) {
-//                    info(Integer.parseInt(args[i]));
-//                }
-//
-//            }
-
             switch (args[0]){
 
                 case "-c": {
