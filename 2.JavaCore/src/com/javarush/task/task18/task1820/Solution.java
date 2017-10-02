@@ -4,7 +4,7 @@ package com.javarush.task.task18.task1820;
 Округление чисел
 */
 
-import com.sun.xml.internal.fastinfoset.util.CharArray;
+
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -52,14 +52,21 @@ public class Solution {
             }
         }
 
-        System.out.println(tempLD);
+        //System.out.println(tempLD);
 
-        BigDecimal x;
+        String result = "";
+
         for (Double b: tempLD) {
-            x = new BigDecimal(b);
-            System.out.print(x.setScale(0, BigDecimal.ROUND_HALF_UP) + " ");
-
+            result = result + Math.round(b) + " ";
         }
+        //System.out.println(result);
+
+        char[] chars = result.toCharArray();
+        for (char ch: chars) {
+            fileW2.write((byte)ch);
+        }
+
+        fileW2.close();
 
     }
 }
