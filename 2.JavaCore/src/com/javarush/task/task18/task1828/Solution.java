@@ -20,92 +20,74 @@ public class Solution {
         BufferedReader readerF = new BufferedReader(new InputStreamReader(new FileInputStream(fileN)));
         String temp;
 
-        switch (args[0]) {
+        Map<Integer, String> bufferMapD = new LinkedHashMap<>();
 
-            case "-c" : {
+        String id ="", name = "", price = "", quantity = "";
 
-                break;
-            }
-            case "-d" : {
-                Map<Integer, String> bufferMapD = new LinkedHashMap<>();
+        while ((temp = readerF.readLine()) != null){
 
-                while ((temp = readerF.readLine()) != null){
+            bufferMapD.put(Integer.parseInt(temp.substring(0,8).replaceAll(" ", "")), temp);
 
-                    bufferMapD.put(Integer.parseInt(temp.substring(0,8).replaceAll(" ", "")), temp);
+        }
 
+        readerF.close();
+
+        if(args.length >= 2) {
+            switch (args[0]) {
+
+                case "-d": {
+
+                    bufferMapD.remove(Integer.parseInt(args[1]));
+                    //writF(fileN, bufferMapD);
+
+                    break;
                 }
-                bufferMapD.remove(Integer.parseInt(args[1]));
-                //writF(fileN, bufferMapD);
+                case "-u": {
 
-                break;
+                    id = args[1];
+                    quantity = args[args.length - 1];
+                    price = args[args.length - 2];
+
+                    if (args.length > 5) {
+
+                        for (int i = 2; i < args.length - 2; i++) {
+                            name = name + args[i] + " ";
+                        }
+
+                    } else {
+                        name = args[args.length - 3];
+                    }
+
+                    bufferMapD.put(Integer.parseInt(id), createL(Integer.parseInt(id), name, price, quantity));
+
+                    break;
+                }
+
             }
-            case "-u" : {
-
-                break;
-            }
-
+            writF(fileN, bufferMapD);
         }
 
 
 
-
-
-
-
-            int maxId = 0;
-            List<String> buffer = new ArrayList<>();
-
-            while ((temp = readerF.readLine()) != null){
-
-                buffer.add(temp);
-                String tempS = temp.substring(0,8).replaceAll(" ", "");
-                if(maxId < Integer.parseInt(tempS)) maxId = Integer.parseInt(tempS);
-
-            }
-
-            readerF.close();
-
-            String name = "", price = "", quantity = "";
-
-            quantity = args[args.length-1];
-            price = args[args.length-2];
-
-            if(args.length > 4){
-
-                for (int i = 1; i < args.length-4; i++) {
-                    name = name + args[i];
-                }
-
-            } else {
-
-                name = args[args.length-3];
-
-            }
-
-            buffer.add(createL(maxId, name, price, quantity));
-
-            writF(fileN, buffer);
-
-
     }
 
-    public static void writF(String fileN, List<String> list) throws IOException{
+    public static void writF(String fileN, Map<Integer, String> map) throws IOException{
 
         BufferedWriter fileW = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileN)));
 
-        for (String str: list) {
-            fileW.write(str+"\r\n");
+        for (Map.Entry<Integer, String> pair: map.entrySet()) {
+            fileW.write(pair.getValue() + "\r\n");
         }
 
         fileW.close();
 
     }
 
-    public static String createL(int maxId, String name, String price, String quantity){
+    public static String createL(int id, String name, String price, String quantity){
 
         String idD, nameD, priceD, quantityD;
 
-        idD = String.valueOf(maxId+1) + "        ";
+        idD = String.valueOf(id) + "        ";
         if(idD.length() > 8) idD = idD.substring(0, 8);
 
         nameD = name + "                              ";
