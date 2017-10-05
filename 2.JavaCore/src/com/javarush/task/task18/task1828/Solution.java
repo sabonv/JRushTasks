@@ -5,9 +5,9 @@ package com.javarush.task.task18.task1828;
 */
 
 import java.io.*;
-import java.util.ArrayList;
+
 import java.util.LinkedHashMap;
-import java.util.List;
+
 import java.util.Map;
 
 public class Solution {
@@ -38,7 +38,6 @@ public class Solution {
                 case "-d": {
 
                     bufferMapD.remove(Integer.parseInt(args[1]));
-                    //writF(fileN, bufferMapD);
 
                     break;
                 }
