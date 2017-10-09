@@ -30,6 +30,12 @@ public class Solution {
             fileR1.close();
             Map<Double, String> mapD = new TreeMap<>();
 
+//            for (Map.Entry<String, Double> pair : map.entrySet()) {
+//
+//                    System.out.println(pair.getKey() + ":"+ pair.getValue());
+//
+//            }
+
             for (Map.Entry<String, Double> pair : map.entrySet()) {
                 mapD.put(pair.getValue(), pair.getKey());
             }
