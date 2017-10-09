@@ -15,36 +15,81 @@ public class Solution {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        FileReader file1 = new FileReader(reader.readLine());
-        FileReader file2 = new FileReader(reader.readLine());
-        BufferedReader fileR1 = new BufferedReader(file1);
-        BufferedReader fileR2 = new BufferedReader(file2);
 
-
+        BufferedReader fileR1 = new BufferedReader(new FileReader(reader.readLine()));
+        BufferedReader fileR2 = new BufferedReader(new FileReader(reader.readLine()));
         reader.close();
 
-        while (fileR1.ready()) {
-            String temp1 = fileR1.readLine();
-            String temp2 = fileR2.readLine();
-            if (temp1.equals(temp2)) {
-                lines.add(new LineItem(Type.SAME, temp1));
-            }
-            else if(temp1==null || temp1.equals("")) {
-                lines.add(new LineItem(Type.ADDED, temp2));
-            }
-            else if(temp2==null || temp2.equals("")) {
-                lines.add(new LineItem(Type.REMOVED, temp1));
-            }
-        }
+        List<String> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+
+        while (fileR1.ready()) list1.add(fileR1.readLine());
+        while (fileR2.ready()) list2.add(fileR2.readLine());
         fileR1.close();
         fileR2.close();
-        file1.close();
-        file2.close();
 
 
-//        for (LineItem pair: lines) {
-//            System.out.println(pair.type +" "+ pair.line);
+//        while (list1.size() > 0 || list2.size() > 0) {
+//
+//            if((list2.size() > 1) && (list1.get(0).equals(list2.get(1)))) {
+//                lines.add(new LineItem(Type.ADDED, list2.remove(0)));
+//                lines.add(new LineItem(Type.SAME, list1.remove(0)));
+//
+//                list2.remove(0);
+//            }
+//            else if((list1.size() > 1) && (list1.get(1).equals(list2.get(0)))) {
+//                lines.add(new LineItem(Type.REMOVED, list1.remove(0)));
+//                lines.add(new LineItem(Type.SAME, list1.remove(0)));
+//                list2.remove(0);
+//            }
+//
+//            else             if((list2.size() > 0) && (list1.get(0).equals(list2.get(0)))) {
+//                lines.add(new LineItem(Type.SAME, list1.remove(0)));
+//                list2.remove(0);
+//
+//            }
+//
+//            else if((list1.size() > 0) && (list2.size() == 0)) {
+//                lines.add(new LineItem(Type.REMOVED, list1.remove(0)));
+//            }
+//            else if((list2.size() > 0) && (list1.size() == 0)) {
+//                lines.add(new LineItem(Type.ADDED, list2.remove(0)));
+//            }
+//
+//
 //        }
+
+
+        while (list1.size() > 0 | list2.size() > 0) {
+            if (list1.size() > 0 && list2.size() > 0) {
+
+                if (list1.get(0).equals(list2.get(0))) {
+                    lines.add(new LineItem(Type.SAME, list1.get(0)));
+                    list1.remove(0);
+                    list2.remove(0);
+                } else if (!list1.get(0).equals(list2.get(0)) && !list1.get(0).equals(list2.get(1))) {
+                    lines.add(new LineItem(Type.REMOVED, list1.get(0)));
+                    list1.remove(0);
+                } else if (!list1.get(0).equals(list2.get(0)) && list1.get(0).equals(list2.get(1))) {
+                    lines.add(new LineItem(Type.ADDED, list2.get(0)));
+                    list2.remove(0);
+                }
+            } else if (list1.size() > 0 && list2.isEmpty()) {
+                for (int i = 0; i < list1.size(); i++) {
+                    lines.add(new LineItem(Type.REMOVED, list1.get(i)));
+                    list1.remove(0);
+                }
+            } else if (list1.isEmpty() && list2.size() > 0) {
+                for (int i = 0; i < list2.size(); i++) {
+                    lines.add(new LineItem(Type.ADDED, list2.get(i)));
+                    list2.remove(0);
+                }
+            }
+        }
+
+        for (LineItem pair: lines) {
+            System.out.println(pair.type +" "+ pair.line);
+        }
     }
 
 
