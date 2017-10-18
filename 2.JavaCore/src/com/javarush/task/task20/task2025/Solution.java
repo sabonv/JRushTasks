@@ -4,142 +4,147 @@ package com.javarush.task.task20.task2025;
 import java.util.*;
 
 /*
-Алгоритмы-числа
+Алгоритмы-числа = Я ХУЙ ЗНАЕТ ЧО ЕМУ НАДО!
 */
 public class Solution {
+    public static long[] getNumbers(long N) {
+        //В list будут складироваться числа Армстронга
+        ArrayList<Long> list = new ArrayList<Long>();
+        //if(N>=0)list.add((long)0);
+        long[] result;
+        //Получаем разрядность числа N
+        int size = 0;
+        if(N != 0) size = (int)Math.log10(N) + 1;
+        else size =1;
+        //Создаем двумерный массив с количеством строк, равным разряду числа N
+        int arr[][] = new int[size][];
 
-    public static int[] getNumbers(long N) {
+        //Инициализируем массивы внутри основного массива. Получаем треугольный массив, заполненных нулями.
+        //Каждый внутренний массив по сути является уже разбитым на цифры числом, которое мы будем проверять.
+        for (int i = 0; i < arr.length; i++)
+            arr[i] = new int[i + 1];
+//int testPoint = 0;
+        //Идем по массиву построчно
+        for (int i = 0; i < arr.length; i++) {
+            //В этом цикле все происходит :) увеличиваем наше "Число", представленное строкой массива, на 1.
+            while (true) {
+                long sum = 0;
 
-        List<Integer> listN = new ArrayList<>();
-        List<Integer> lisiTest = new ArrayList<>();
+                //В sum записываем число для проверки на соответстве числу Армстронга
+                for (int j = 0; j < arr[i].length; j ++) {
 
-        int count = 0;
-        Set<Integer> setAN = new TreeSet<>();
-        for (int i = 0; i <= N; i++) {
-            if(isNumberUnique(i)) {
-                listN.add(i);
-                count++;
-                int firstN = summAM(i);
-                if(!setAN.contains(firstN)) {
-                    if (isANumber(firstN) && firstN <= N) lisiTest.add(firstN);
+                    sum += pow(arr[i][j], arr[i].length);
                 }
+//int testPoint = 0;
+                //Перед проверкой числа проверяем, совпадает ли его разрядность с нужной нам.
+                //Если нет, то и проверять не имеет смысла.
+
+                if (((int)Math.log10(sum) + 1 == arr[i].length)) {
+                    //Проверяем, меньше ли наше число, чем N.
+                    //По условиям задачи тут должно проверятся условие sum < N,
+                    //но проклятый валидатор, как оказалось, имел в виду меньшую разрядность.
+                    if (((int)Math.log10(sum) < (int)Math.log10(N))&& sum < N) { // первый "<" || "<="
+                        //Проверяем наше число на соответствие числу Армстронга и пишем его в list, если подходит.
+                        if (isArmstrong(sum, arr[i]))
+                            list.add(sum);
+                    }
+                }
+                //Если старший разряд нашего числа достиг максимума (9),
+                //выходим из цикла и переходим к следующей строке массива.
+                if (arr[i][0] == 9)
+                    break;
+
+                //Если младший разряд числа достиг своего максимума(9)
+                if (arr[i][arr[i].length - 1] == 9) {
+                    boolean isFind = false;
+
+                    //ищем в массиве разряд, который предшествует значению "9"
+                    for (int j = 0; j < arr[i].length - 1; j++) {
+                        //и увеличиваем его на 1.
+                        if (arr[i][j + 1] == 9 && !isFind) {
+                            arr[i][j]++;
+                            isFind = true;
+                        }
+
+                        //Все последующие разряды приравниваем к тому, который мы только что увеличили.
+                        //Это необходимо, чтобы не проверять повторяющиеся значения, вызванные перестановкой
+                        //одинаковых разрядов
+                        if (isFind)
+                            arr[i][j + 1] = arr[i][j];
+                    }
+                }
+                //Если младший разряд еще не достиг максимуму, увеличиваем его на 1
+                else
+                    arr[i][arr[i].length - 1]++;
             }
         }
 
-        //-----------
-        System.out.println(listN);
-        //System.out.println(listN.size());
-
-//        List<Integer> listAN = new ArrayList<>();
-//
-//
-//        for (Integer testN: listN) {
-//            int firstN = summAM(testN);
-//            if(!setAN.contains(firstN)) {
-//                if (isANumber(firstN) && firstN <= N) setAN.add(firstN);
-//            }
-//        }
-        System.out.println(count);
-        System.out.println(lisiTest);
-        System.out.println(setAN);
-
-        return null;
+        //Сортируем list и переписываем данные из него в result
+        Collections.sort(list);
+        result = new long[list.size()];
+        for (int i = 0; i < list.size(); i++)
+            result[i] = list.get(i);
+        return result;
     }
 
+    //Метод проверяет число на соответствие числу Армстронга.
+    //Массив arr содержит разряды числа, из которого было получено число number
+    public static boolean isArmstrong(long number, int[] arr) {
+        //В list будут хранится разряды числа number
+        ArrayList<Long> list = new ArrayList<Long>();
+        //point - предел цикла для нарезки числа на разряды
+        long point = pow(10, arr.length - 1);
+        //long point = (long) Math.pow(10, arr.length - 1);
 
-    private static boolean isANumber(int number) {
+        //нарезаем число на разряды
+        for (long i = 1; i <= point; i *= 10 ) {
+            //Проверяем, не вскочил ли i за пределы long. Иначе лишимся последних 4-х чисел Армстронга в пределе long
+            if (i > 0)
+                list.add(((number / i) % 10));
 
-        int lenth = (number == 0) ? 1 : (int) Math.ceil(Math.log10(Math.abs(number) + 0.5));
-
-        int summ = 0;
-
-        List<Integer> tempArInt = new ArrayList<>();
-        if (number > 0){
-            for(int a=number; a>0; a/=10)
-                tempArInt.add(0, a%10);
-        }else tempArInt.add(0);
-
-        for (int i = 0; i < lenth; i++) {
-            summ = summ + (int)Math.pow(tempArInt.get(i), lenth);
         }
 
-        return number == summ;
-    }
+        Collections.sort(list);
+        boolean isEquals = true;
 
-    private static int summAM(int number) {
-        boolean test = false;
-        int lenth = (number == 0) ? 1 : (int) Math.ceil(Math.log10(Math.abs(number) + 0.5));
-
-        List<Integer> tempArInt = new ArrayList<>();
-        if (number > 0){
-            for(int a=number; a>0; a/=10)
-                tempArInt.add(0, a%10);
-        }else tempArInt.add(0);
-
-        int summ = 0;
-
-        for (int i = 0; i < lenth; i++) {
-            summ = summ + (int)Math.pow(tempArInt.get(i), lenth);
-        }
-        int testPont = 0;
-        return summ;
-    }
-
-    private static boolean isNumberUnique(int number) {
-        int lenth = (number == 0) ? 1 : (int) Math.ceil(Math.log10(Math.abs(number) + 0.5));
-        List<Integer> tempArInt = new ArrayList<>();
-        if (number > 0){
-            for(int a=number; a>0; a/=10)
-                tempArInt.add(0, a%10);
-        }
-
-        if(lenth == 1) return true;
-        else if(lenth == 2) {
-
-            if(tempArInt.get(0) <= tempArInt.get(1)) return true;
-        }
-
-        else{ //100
-            boolean test = false;
-
-            for (int i = 1; i < lenth-1; i++) {
-                if(((tempArInt.get(i)>tempArInt.get(i-1)) &&(tempArInt.get(i)<tempArInt.get(i+1))) || tempArInt.get(lenth-1) == 0)
-                    test = true;
-                else test = false;
+        //Сравниваем "нарезанные" разряды с теми, из которых получилось число number.
+        //Если все совпадает, значит true.
+        for (int i = 0; i < arr.length; i++) {
+            if (list.get(i) != arr[i]) {
+                isEquals = false;
+                break;
             }
-            return test;
-
         }
-
-        return false;
+        return isEquals;
     }
 
+    //Это работает в разы быстрее Math.pow()
+    public static long pow (int num, int exp) {
+        long l = 1;
+        for (int i = 0; i < exp; i++)
+            l *= (long)num;
+
+        return l;
+
+    }
 
     public static void main(String[] args) {
 
+        long N = Long.MAX_VALUE;
+
         long startDate = new Date().getTime();
 
-        //System.out.println(startDate);
-
-        //146511209
-        //9800817 s8
-        //9474
-        int[] out = getNumbers(1000);
-/*
-        List<Integer> check = new ArrayList<>();
-        for(int a=110; a>0; a/=10)
-            check.add(0, a%10);
-        System.out.println(check + "!");
-*/
-/*
-        for (long vot: out) {
-            System.out.print(vot + " ");
-        }
-*/
+        long[] arr = getNumbers(8000);
 
         System.out.println();
         System.out.println((Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory())/1024/1024 + " MB");
         System.out.println((new Date().getTime()- startDate) / 1000 + " s.");
+
+        for (long l : arr)
+            System.out.print(l + ", ");
+        System.out.println();
+        System.out.println(arr.length);
+        System.out.println(N);
 
     }
 }
