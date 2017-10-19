@@ -13,40 +13,52 @@ public class Solution {
         };
         int count = getRectangleCount(a);
         System.out.println("count = " + count + ". Должно быть 2");
+
     }
 
     public static int getRectangleCount(byte[][] a) {
+        int count = 0, jx = a[0].length;
+        boolean openR = false;
 
-        int count = 0, tmp = -1, jt = a[0].length;
-        boolean findRect = false;
-        while (tmp != count) { //если счётчик увеличился за проход по матрице - снова делаем проход по матрице
-            tmp = count;
+        while(getSum(a) > 0){
 
-            outerloop:
             for (int i = 0; i < a.length; i++) {
-                for (int j = 0; j < a[0].length; j++) {
-                    if (a[i][j] == 1 && !findRect) { //случай, когда встретили прямоугольник
+                for (int j = 0; j < a[i].length; j++) {
+
+                    if(a[i][j] == 1 && !openR){
                         count++;
-                        jt = j; //запоминаем столбец, в котором начался прямоугольник
-                        findRect = true;
+                        jx = j;
+                        openR = true;
                         a[i][j] = 0;
                     }
-                    else if (a[i][j] == 1 && findRect) {//обнуляем, чтобы не мешался
-                        a[i][j] = 0;
+                    else if(a[i][j] == 1 && openR) a[i][j] = 0;
+                    else if(a[i][j] == 0 && openR && j == jx){
+                        i = a.length;
+                        j = a[0].length;
+                        break;
                     }
-                    else if (a[i][j] == 0 && findRect && j == jt) { //если элемент под прямоугольник равен 0 - он закончился
-                        break outerloop; //выходим из внешнего цикла
-                    }
-                    else if (a[i][j] == 0 && findRect && j > jt) { //если элемент справа от прямоугольника равен 0 - идем на след строку
+                    else if(a[i][j] == 0 && openR && j > jx){
                         break;
                     }
                 }
             }
-            findRect = false;
+
+            openR = false;
+
         }
+
         return count;
     }
 
+    public static int getSum(byte[][] a) {
+        int sum = 0;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                sum = sum + a[i][j];
+            }
+        }
 
+        return sum;
+    }
 
 }
