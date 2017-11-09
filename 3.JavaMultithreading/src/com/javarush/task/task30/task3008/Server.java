@@ -31,7 +31,7 @@ public class Server {
 
     public static void main(String[] args) {
 
-        writeMessage("Enter port for server.");
+        writeMessage("Enter port for server:");
         //int port = readInt();
 
         try(ServerSocket serverSocket = new ServerSocket(readInt())){
@@ -79,7 +79,7 @@ public class Server {
                 sendListOfUsers(connection, userName);
                 serverMainLoop(connection, userName);
             } catch (IOException | ClassNotFoundException e) {
-                writeMessage("Error(Handler_run) on methods serverHandshake or serverMainLoop or new_Connection or sendListOfUsers.");
+                writeMessage("Error on methods serverHandshake or serverMainLoop or new_Connection or sendListOfUsers.");
             }  finally {
                 if(userName !=  null && connectionMap.containsKey(userName)) {
                     connectionMap.remove(userName);
