@@ -5,6 +5,7 @@ import com.javarush.task.task30.task3008.Message;
 import com.javarush.task.task30.task3008.MessageType;
 
 import java.io.IOException;
+import java.net.Socket;
 
 import static com.javarush.task.task30.task3008.ConsoleHelper.*;
 
@@ -70,7 +71,87 @@ public class Client {
 
         }
 
+        protected void clientHandshake() throws IOException, ClassNotFoundException {
 
+            while (true) {
+
+                Message tempMess = connection.receive();
+
+                if(tempMess.getType() == MessageType.NAME_REQUEST) {
+                    connection.send(new Message(MessageType.USER_NAME, getUserName()));
+                } else if(tempMess.getType() == MessageType.NAME_ACCEPTED) {
+                    notifyConnectionStatusChanged(true);
+                    writeMessage("Server accepted connecting.");
+                    break;
+                } else throw new IOException("Unexpected MessageType");
+
+
+//                switch (tempMess.getType()) {
+//
+//                    case NAME_ACCEPTED: {
+//                        notifyConnectionStatusChanged(true);
+//                        writeMessage("Server accepted connecting.");
+//                        break;
+//                    }
+//                    case NAME_REQUEST: {
+//                        connection.send(new Message(MessageType.USER_NAME, getUserName()));
+//                        break;
+//                    }
+//                    default: {
+//                        throw new IOException("Unexpected MessageType");
+//                    }
+//
+//                }
+            }
+
+        }
+
+        protected void clientMainLoop() throws IOException, ClassNotFoundException {
+            while (true) {
+
+                Message tempMess = connection.receive();
+
+                if(tempMess.getType() == MessageType.TEXT) {
+                    processIncomingMessage(tempMess.getData());
+                } else if(tempMess.getType() == MessageType.USER_ADDED) {
+                    informAboutAddingNewUser(tempMess.getData());
+                } else if(tempMess.getType() == MessageType.USER_REMOVED) {
+                    informAboutDeletingNewUser(tempMess.getData());
+                } else throw new IOException("Unexpected MessageType");
+
+//                switch (tempMess.getType()) {
+//
+//                    case TEXT: {
+//                        processIncomingMessage(tempMess.getData());
+//                        break;
+//                    }
+//                    case USER_ADDED: {
+//                        informAboutAddingNewUser(tempMess.getData());
+//                        break;
+//                    }
+//                    case USER_REMOVED: {
+//                        informAboutDeletingNewUser(tempMess.getData());
+//                        break;
+//                    }
+//                    default: {
+//                        throw new IOException("Unexpected MessageType");
+//                    }
+//                }
+            }
+        }
+
+        @Override
+        public void run() {
+            try {
+                Socket socket = new Socket(getServerAddress(), getServerPort());
+                connection = new Connection(socket);
+                clientHandshake();
+                clientMainLoop();
+            } catch (IOException | ClassNotFoundException e) {
+                notifyConnectionStatusChanged(false);
+            }
+
+        }
     }
 
     protected String getServerAddress() {

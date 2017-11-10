@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaRushTasks:jar_Client">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaRushTasks_jar_Client</output-path>
+    <root id="archive" name="JavaRushTasks.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task30/task3008/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="1.JavaSyntax" />
+      <element id="module-output" name="2.JavaCore" />
+      <element id="module-output" name="3.JavaMultithreading" />
+      <element id="module-output" name="4.JavaCollections" />
+      <element id="module-output" name="5.OnlineInternship" />
+      <element id="module-output" name="JavaRushTasks" />
+    </root>
+  </artifact>
+</component>
