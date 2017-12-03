@@ -1,6 +1,5 @@
 package com.javarush.task.task27.task2712.ad;
 
-import com.javarush.task.task27.task2712.ConsoleHelper;
 
 public class AdvertisementManager {
     private final AdvertisementStorage storage = AdvertisementStorage.getInstance();
@@ -11,6 +10,11 @@ public class AdvertisementManager {
     }
 
     public void processVideos() {
-        ConsoleHelper.writeMessage("calling processVideos method");
+        //ConsoleHelper.writeMessage("calling processVideos method");
+
+        if (storage.list().isEmpty()) throw new NoVideoAvailableException();
+
+
+
     }
 }
