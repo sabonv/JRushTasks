@@ -34,4 +34,8 @@ public class Advertisement {
     public long getAmountPerOneDisplaying() {
         return amountPerOneDisplaying;
     }
+
+    public int getHits() {
+        return hits;
+    }
 }
