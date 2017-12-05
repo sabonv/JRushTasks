@@ -2,6 +2,8 @@ package com.javarush.task.task27.task2712.ad;
 
 
 import com.javarush.task.task27.task2712.ConsoleHelper;
+import com.javarush.task.task27.task2712.statistic.StatisticManager;
+import com.javarush.task.task27.task2712.statistic.event.VideoSelectedEventDataRow;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -37,6 +39,16 @@ public class AdvertisementManager {
                                 o2.getAmountPerOneDisplaying() * 1000 / o2.getDuration());
             }
         });
+
+        long amount = 0;
+        int totalDuration = 0;
+        for (Advertisement ad: videoForViwe) {
+            amount += ad.getAmountPerOneDisplaying();
+            totalDuration += ad.getDuration();
+        }
+
+        StatisticManager.getInstance().register(new VideoSelectedEventDataRow(videoForViwe, amount, totalDuration));
+
         for (Advertisement a : videoForViwe) {
             a.revalidate();
             ConsoleHelper.writeMessage(a.getName() + " is displaying... " + a.getAmountPerOneDisplaying() + ", " +

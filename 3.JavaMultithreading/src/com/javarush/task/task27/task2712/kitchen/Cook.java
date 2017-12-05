@@ -1,6 +1,8 @@
 package com.javarush.task.task27.task2712.kitchen;
 
 import com.javarush.task.task27.task2712.ConsoleHelper;
+import com.javarush.task.task27.task2712.statistic.StatisticManager;
+import com.javarush.task.task27.task2712.statistic.event.CookedOrderEventDataRow;
 
 
 import java.util.Observable;
@@ -21,6 +23,7 @@ public class Cook extends Observable implements Observer{
     public void update(Observable o, Object arg) {
         //ConsoleHelper.writeMessage(arg.toString());
         Order order = (Order) arg;
+        StatisticManager.getInstance().register(new CookedOrderEventDataRow(order.getTablet().toString(), name, order.getTotalCookingTime()*60, order.getDishes()));
         ConsoleHelper.writeMessage("Start cooking - " + order.toString() + ", cooking time " + order.getTotalCookingTime() + "min");
 
         setChanged();
