@@ -15,6 +15,7 @@ public class Advertisement {
         this.initialAmount = initialAmount;
         this.hits = hits;
         this.duration = duration;
+        //revalidate();
         this.amountPerOneDisplaying = initialAmount/hits;
     }
 

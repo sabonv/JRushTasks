@@ -32,7 +32,6 @@ public class StatisticManager {
         cooks.add(cook);
     }
 
-
     public Map<Date, Double> advertisementProfit(){
         Map<Date, Double> result = new TreeMap<>(new Comparator<Date>() {
             @Override
@@ -102,7 +101,6 @@ public class StatisticManager {
 
         return result;
     }
-
 
     private static class StatisticStorage{
         private Map<EventType, List<EventDataRow>> storage = new HashMap<>();
