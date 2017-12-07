@@ -15,7 +15,7 @@ public class StatisticManager {
 
     private static final StatisticManager ourInstance = new StatisticManager();
     private StatisticStorage statisticStorage = new StatisticStorage();
-    private Set<Cook> cooks = new HashSet<>();
+//    private Set<Cook> cooks = new HashSet<>();
 
     private StatisticManager() {
     }
@@ -28,9 +28,9 @@ public class StatisticManager {
         statisticStorage.put(data);
     }
 
-    public void register(Cook cook){
-        cooks.add(cook);
-    }
+//    public void register(Cook cook){
+//        cooks.add(cook);
+//    }
 
     public Map<Date, Double> advertisementProfit(){
         Map<Date, Double> result = new TreeMap<>(new Comparator<Date>() {
@@ -122,4 +122,7 @@ public class StatisticManager {
         }
     }
 
+//    public Set<Cook> getCooks() {
+//        return cooks;
+//    }
 }

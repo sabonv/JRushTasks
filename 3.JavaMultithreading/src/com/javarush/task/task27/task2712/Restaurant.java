@@ -3,12 +3,14 @@ package com.javarush.task.task27.task2712;
 
 
 import com.javarush.task.task27.task2712.kitchen.Cook;
+import com.javarush.task.task27.task2712.kitchen.Order;
 import com.javarush.task.task27.task2712.kitchen.Waiter;
 import com.javarush.task.task27.task2712.statistic.StatisticManager;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * Created by v.usov on 28.11.2017.
@@ -16,56 +18,64 @@ import java.util.List;
 public class Restaurant {
 
     private static final int ORDER_CREATING_INTERVAL = 100;
+    private static final LinkedBlockingQueue<Order> orderQueue = new LinkedBlockingQueue<>();
 
-    public static void main(String[] args) throws IOException{
-        //System.out.println(Dish.allDishesToString());
+    public static void main(String[] args) throws IOException, InterruptedException{
+        List<Tablet> tablets = new ArrayList<>();
 
-        //Tablet tablet = new Tablet(5);
+        Cook cook = new Cook("Amigo");
+        cook.setQueue(orderQueue);
 
-
-        Cook cook1= new Cook("Test");
-        Cook cook2 = new Cook("Test2");
-        StatisticManager.getInstance().register(cook1);
-        StatisticManager.getInstance().register(cook2);
+        Cook cook2 = new Cook("Cook");
+        cook2.setQueue(orderQueue);
 
         Waiter waiter = new Waiter();
-
-        cook1.addObserver(waiter);
+        cook.addObserver(waiter);
         cook2.addObserver(waiter);
 
-        OrderManager orderManager = new OrderManager();
+        //StatisticManager.getInstance().register(cook);
+        //StatisticManager.getInstance().register(cook2);
 
-        List<Tablet> tabletList = new ArrayList<>();
+        //OrderManager orderManager = new OrderManager();
 
-        for (int i = 0; i < 5; i++) {
-            Tablet temp = new Tablet(i);
-            temp.addObserver(orderManager);
-            temp.addObserver(orderManager);
-            tabletList.add(temp);
+        for (int i = 1; i < 6; i++) {
+            Tablet tablet = new Tablet(i);
+            tablet.setQueue(orderQueue);
+            tablets.add(tablet);
         }
 
-        //tablet.addObserver(cook1);
-        //tablet.createOrder();
+        Thread thread = new Thread(cook);
+        thread.start();
+        Thread thread2 = new Thread(cook2);
+        thread2.start();
 
-        Thread rogt = new Thread(new RandomOrderGeneratorTask(tabletList, ORDER_CREATING_INTERVAL));
-        rogt.start();
+        RandomOrderGeneratorTask tasks = new RandomOrderGeneratorTask(tablets, ORDER_CREATING_INTERVAL);
+        Thread thread3 = new Thread(tasks);
+        thread3.start();
+
         try {
             Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            rogt.interrupt();
+        } catch (InterruptedException ignore) {
         }
 
+        thread3.interrupt();
+
+        while (!orderQueue.isEmpty()) {
+            Thread.sleep(1);
+        }
+
+        while ((cook.isBusy()) || (cook2.isBusy())) {
+            Thread.sleep(1);
+        }
+
+        thread.interrupt();
+        thread2.interrupt();
 
         DirectorTablet directorTablet = new DirectorTablet();
         directorTablet.printAdvertisementProfit();
         directorTablet.printCookWorkloading();
         directorTablet.printActiveVideoSet();
         directorTablet.printArchivedVideoSet();
-
-
-//        for (Dish dh: getAllDishesForOrder()) {
-//            System.out.println(dh.toString());
-//        }
     }
 
 }

@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class Order {
     private final Tablet tablet;
-    protected List<Dish> dishes;
+    protected List<Dish> dishes = new ArrayList<>();
 
     public Order(Tablet tablet) throws IOException{
         this.tablet = tablet;
@@ -21,7 +21,7 @@ public class Order {
     }
 
     protected void initDishes() throws IOException {
-        dishes = ConsoleHelper.getAllDishesForOrder();
+        this.dishes = ConsoleHelper.getAllDishesForOrder();
     }
 
     public int getTotalCookingTime() {
