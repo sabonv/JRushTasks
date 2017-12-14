@@ -93,10 +93,26 @@ public class Model {
         return flag;
     }
 
-    private void rotate() {
+    private void rotate(int n) {
+        if (n<0) n=0;
+        for (int i = 0; i < n; i++) {
 
 
+            int len = FIELD_WIDTH;
+            for (int k = 0; k < len / 2; k++) // border -> center
+            {
+                for (int j = k; j < len - 1 - k; j++) // left -> right
+                {
 
+                    Tile tmp = gameTiles[k][j];
+                    gameTiles[k][j] = gameTiles[j][len - 1 - k];
+                    gameTiles[j][len - 1 - k] = gameTiles[len - 1 - k][len - 1 - j];
+                    gameTiles[len - 1 - k][len - 1 - j] = gameTiles[len - 1 - j][k];
+                    gameTiles[len - 1 - j][k] = tmp;
+                }
+            }
+
+        }
 
     }
 
@@ -110,7 +126,45 @@ public class Model {
         if (flag) addTile();
     }
 
+    public void down() {
+        rotate(3);
+        left();
+        rotate(1);
+    }
 
+    public void right(){
+        rotate(2);
+        left();
+        rotate(2);
+    }
 
+    public void up(){
+        rotate(1);
+        left();
+        rotate(3);
+    }
 
+    public boolean canMove() {
+
+        if (!getEmptyTiles().isEmpty())
+            return true;
+        for (int i = 0; i < gameTiles.length; i++) {
+            for (int j = 1; j < gameTiles.length; j++) {
+                if (gameTiles[i][j].value == gameTiles[i][j - 1].value)
+                    return true;
+            }
+        }
+        for (int j = 0; j < gameTiles.length; j++) {
+            for (int i = 1; i < gameTiles.length; i++) {
+                if (gameTiles[i][j].value == gameTiles[i - 1][j].value)
+                    return true;
+            }
+        }
+        return false;
+
+    }
+
+    public Tile[][] getGameTiles() {
+        return gameTiles;
+    }
 }
