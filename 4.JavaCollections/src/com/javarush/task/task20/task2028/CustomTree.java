@@ -4,6 +4,8 @@ import java.io.Serializable;
 import java.util.AbstractList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 /* 
 Построй дерево(1)
@@ -20,31 +22,122 @@ public class CustomTree extends AbstractList<String> implements Serializable, Cl
 
 
         System.out.println(list.size());
-        //System.out.println("Expected 3, actual is " + ((CustomTree) list).getParent("8"));
+        System.out.println("Expected 3, actual is " + ((CustomTree) list).getParent("8"));
         list.remove("5");
-        //System.out.println("Expected null, actual is " + ((CustomTree) list).getParent("11"));
+        System.out.println("Expected null, actual is " + ((CustomTree) list).getParent("11"));
 
     }
 
     @Override
     public int size() {
-        return 0;
+        int size = 0;
+        if (root == null) {
+            return size;
+        }
+
+        Queue<Entry<String>> queue = new ConcurrentLinkedQueue<>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            Entry<String> currentE = queue.poll();
+            if (currentE.leftChild != null){
+                queue.offer(currentE.leftChild);
+                size++;
+            }
+            if (currentE.rightChild != null){
+                queue.offer(currentE.rightChild);
+                size++;
+            }
+
+        }
+
+        return size;
     }
 
     @Override
     public boolean add(String s) {
 
+        if(root == null) {
+            root = new Entry<>("0");
+            //return true;
+        }
 
+        Queue<Entry<String>> queue = new ConcurrentLinkedQueue<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
 
-        return super.add(s);
+            Entry<String> currentE = queue.poll();
+            if (currentE.isAvailableToAddChildren()){
+                if (currentE.availableToAddLeftChildren) {
+                    currentE.leftChild = new Entry<>(s);
+                    currentE.leftChild.parent = currentE;
+                    currentE.leftChild.lineNumber = 1 + currentE.lineNumber;
+                    currentE.checkChildren();
+                    return true;
+                }
+                else if (currentE.availableToAddRightChildren){
+                    currentE.rightChild = new Entry<>(s);
+                    currentE.rightChild.parent = currentE;
+                    currentE.rightChild.lineNumber = 1 + currentE.lineNumber;
+                    currentE.checkChildren();
+                    return true;
+                }
+            }
+            else {
+                if(currentE.leftChild != null) queue.offer(currentE.leftChild);
+                if(currentE.rightChild != null) queue.offer(currentE.rightChild);
+            }
+
+        }
+
+        return false;
     }
 
     @Override
     public boolean remove(Object o) {
-        return super.remove(o);
+        String s = "";
+        if (o instanceof String) s = (String) o;
+
+        Queue<Entry<String>> queue = new ConcurrentLinkedQueue<>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            Entry<String> currentE = queue.poll();
+            if (currentE.leftChild != null){
+                if (currentE.leftChild.elementName.equals(s)) {
+                    currentE.leftChild = null;
+                    return true;
+                }
+                else queue.offer(currentE.leftChild);
+            }
+            if (currentE.rightChild != null){
+                if (currentE.rightChild.elementName.equals(s)) {
+                    currentE.rightChild = null;
+                    return true;
+                }
+                else queue.offer(currentE.rightChild);
+            }
+
+        }
+
+        return false;
+
     }
 
     public String getParent(String s){
+
+        Queue<Entry<String>> queue = new ConcurrentLinkedQueue<>();
+        queue.add(root);
+        while(!queue.isEmpty()) {
+            Entry<String> currentE = queue.poll();
+            if (currentE.leftChild != null){
+                if (currentE.leftChild.elementName.equals(s)) return currentE.leftChild.parent.elementName;
+                else queue.offer(currentE.leftChild);
+            }
+            if (currentE.rightChild != null){
+                if (currentE.rightChild.elementName.equals(s)) return currentE.rightChild.parent.elementName;
+                else queue.offer(currentE.rightChild);
+            }
+
+        }
 
         return null;
     }
