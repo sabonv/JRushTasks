@@ -266,3 +266,312 @@
 2017-12-28 17:13:29 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
 2017-12-28 17:13:29 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
 2017-12-28 17:13:30 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 11:11:19 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2017-12-29 11:11:19 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2017-12-29 11:11:19 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2017-12-29 11:11:19 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:11:19 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:11:20 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2017-12-29 11:11:20 INFO  ApacheHttpClient.login(213) - responseCode200
+2017-12-29 11:11:20 INFO  ApacheHttpClient.login(244) - JSESSIONID=7CB2FE322607D3E467FE0665413AE54B
+2017-12-29 11:11:20 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2017-12-29 11:11:20 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2017-12-29 11:11:20 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2017-12-29 11:11:20 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2017-12-29 11:11:25 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:11:25 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:11:26 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:11:26 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:11:27 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:11:27 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:11:31 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:11:44 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:11:44 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:11:44 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:11:44 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:12:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:13:20 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:14:20 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:15:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:16:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:16:48 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:16:48 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-29 11:16:53 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-29 11:16:54 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:16:54 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:16:54 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:16:54 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:16:54 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:17:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:18:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:19:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:20:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:21:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:22:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:23:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:24:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:25:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:26:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:27:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:28:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:29:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:29:50 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:29:50 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 11:29:50 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 11:29:50 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:29:51 INFO  ApacheHttpClient.completed(27) - responseCode = 400
+2017-12-29 11:29:51 WARN  TaskCompleted.run(66) - Задача "Дженерики для создания прокси-объекта" уже решена
+2017-12-29 11:30:01 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:30:01 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 11:30:01 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:30:03 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-29 11:30:03 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 11:30:11 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:30:11 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2017-12-29 11:30:13 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2017-12-29 11:30:14 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:30:14 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:30:14 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2017-12-29 11:30:14 INFO  ApacheHttpClient.testConnection(185) - result = true
+2017-12-29 11:30:14 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:30:20 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:31:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:31:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:32:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:32:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:33:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:33:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:34:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:34:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:35:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:35:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:36:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:36:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:37:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:37:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:37:28 ERROR PluginManager.error(134) - null
+java.lang.NullPointerException
+	at javafx.embed.swing.JFXPanel.getInputMethodRequests(JFXPanel.java:810)
+	at sun.awt.im.InputMethodAdapter.haveActiveClient(InputMethodAdapter.java:61)
+	at sun.awt.windows.WInputMethod.deactivate(WInputMethod.java:340)
+	at sun.awt.im.InputContext.deactivateInputMethod(InputContext.java:492)
+	at sun.awt.im.InputContext.focusLost(InputContext.java:458)
+	at sun.awt.im.InputContext.removeNotify(InputContext.java:627)
+	at java.awt.Component.removeNotify(Component.java:7016)
+	at java.awt.Container.removeNotify(Container.java:2820)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at javafx.embed.swing.JFXPanel.removeNotify(JFXPanel.java:829)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.remove(Container.java:1206)
+	at java.awt.Container.remove(Container.java:1264)
+	at com.intellij.ui.tabs.impl.JBTabsImpl.removeDeferredNow(JBTabsImpl.java:1047)
+	at com.intellij.ui.tabs.impl.JBTabsImpl.lambda$removeDeferred$6(JBTabsImpl.java:1020)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.flushRequest(FocusManagerImpl.java:649)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.flushNow(FocusManagerImpl.java:630)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.flushIdleRequests(FocusManagerImpl.java:600)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$doWhenFocusSettlesDown$9(FocusManagerImpl.java:482)
+	at com.intellij.util.ui.UIUtil.invokeLaterIfNeeded(UIUtil.java:2493)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.doWhenFocusSettlesDown(FocusManagerImpl.java:462)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.doWhenFocusSettlesDown(IdeFocusManagerImpl.java:60)
+	at com.intellij.ui.tabs.impl.JBTabsImpl.removeDeferred(JBTabsImpl.java:1026)
+	at com.intellij.ui.tabs.impl.JBTabsImpl.lambda$executeSelectionChange$4(JBTabsImpl.java:920)
+	at com.intellij.openapi.util.ExecutionCallback.setExecuted(ExecutionCallback.java:58)
+	at com.intellij.openapi.util.ActionCallback.setDone(ActionCallback.java:72)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$null$4(FocusManagerImpl.java:290)
+	at com.intellij.util.ui.UIUtil.invokeLaterIfNeeded(UIUtil.java:2493)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$null$5(FocusManagerImpl.java:288)
+	at com.intellij.openapi.util.ActionCallback$ExecutedExecutionCallback.doWhenExecuted(ActionCallback.java:187)
+	at com.intellij.openapi.util.ActionCallback.doWhenDone(ActionCallback.java:111)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$_requestFocus$8(FocusManagerImpl.java:288)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:843)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:679)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:391)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2017-12-29 11:37:28 ERROR PluginManager.logErrorHeader(142) - IntelliJ IDEA 2016.3.5  Build #IC-163.13906.18
+2017-12-29 11:37:28 ERROR PluginManager.logErrorHeader(149) - JDK: 1.8.0_112-release
+2017-12-29 11:37:28 ERROR PluginManager.logErrorHeader(150) - VM: OpenJDK Server VM
+2017-12-29 11:37:28 ERROR PluginManager.logErrorHeader(151) - Vendor: JetBrains s.r.o
+2017-12-29 11:37:28 ERROR PluginManager.logErrorHeader(152) - OS: Windows 7
+2017-12-29 11:37:28 ERROR PluginManager.logErrorHeader(158) - Last Action: EditorEnter
+2017-12-29 11:38:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:38:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:39:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:39:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:40:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:40:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:40:40 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:40:40 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 11:40:40 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2017-12-29 11:40:44 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2017-12-29 11:40:44 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 11:41:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:41:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:42:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:42:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:43:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:43:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:44:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:44:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:45:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:45:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:46:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:46:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:47:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:47:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:48:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:48:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:49:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:49:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:50:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:50:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:51:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:51:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:52:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:52:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:53:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:53:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:54:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:54:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:55:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:55:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:56:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:56:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:57:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:57:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:58:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:58:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:59:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 11:59:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:00:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:00:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:01:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:01:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:02:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:02:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:03:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:03:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:04:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:04:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:05:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:05:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:06:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:06:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:07:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:07:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:08:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:08:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:09:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:09:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:10:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:10:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:11:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:11:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:12:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:12:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:13:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:13:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:14:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:14:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:15:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:15:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:16:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:16:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:17:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:17:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:18:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:18:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:19:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:19:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:20:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:20:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:21:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:21:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:22:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:22:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:23:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:23:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:24:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:24:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:25:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:25:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:26:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:26:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:27:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:27:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:28:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:28:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:29:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:29:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:30:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:30:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:31:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:31:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:32:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:32:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:33:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:33:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:34:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:34:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:35:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:35:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:36:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:36:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:37:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:37:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:38:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:38:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:39:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:39:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:40:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:40:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:41:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:41:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:42:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:42:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:43:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:43:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:44:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:44:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:45:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:45:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:46:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:46:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:47:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:47:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:48:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:48:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:49:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:49:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:50:21 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2017-12-29 12:51:03 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2017-12-29 12:51:03 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 12:51:03 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2017-12-29 12:51:03 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
