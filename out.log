@@ -2825,3 +2825,691 @@ java.lang.NullPointerException
 2018-01-11 14:51:53 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
 2018-01-11 14:51:53 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
 2018-01-11 14:51:53 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:07:10 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-01-11 15:07:10 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-01-11 15:07:10 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-01-11 15:07:10 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:07:10 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:07:11 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-01-11 15:07:11 INFO  ApacheHttpClient.login(213) - responseCode200
+2018-01-11 15:07:11 INFO  ApacheHttpClient.login(244) - JSESSIONID=C825A0BD07553AA4A96E3D4EB1D23580
+2018-01-11 15:07:11 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-01-11 15:07:11 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-01-11 15:07:11 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-01-11 15:07:11 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-01-11 15:07:17 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:07:17 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:07:17 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:07:17 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:07:29 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:07:37 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:07:37 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:07:44 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:07:44 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:07:44 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:07:44 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:08:11 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:08:11 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 15:08:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:08:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:08:12 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 15:08:13 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:08:13 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:08:13 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:08:13 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:08:13 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:09:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:09:41 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:09:41 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:09:41 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:09:43 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:09:43 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:09:45 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:09:45 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 15:09:47 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 15:09:48 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:09:48 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:09:48 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:09:48 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:09:48 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:10:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:11:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:12:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:13:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:13:16 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:13:17 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:13:17 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:13:18 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:13:18 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:13:21 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:13:21 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 15:13:22 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 15:13:24 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:13:24 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:13:24 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:13:24 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:13:24 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:14:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:15:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:16:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:17:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:18:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:18:25 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:18:25 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:18:25 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:18:27 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:18:27 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:18:32 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:18:32 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 15:18:33 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 15:18:35 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:18:35 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:18:35 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:18:35 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:18:35 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:19:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:20:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:20:32 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:20:32 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:20:32 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:20:34 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:20:34 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:20:36 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:20:36 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 15:20:38 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 15:20:39 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:20:39 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:20:39 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:20:39 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:20:39 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:21:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:22:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:23:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:24:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:25:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:25:24 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:25:25 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:25:25 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:25:26 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:25:26 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:25:28 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:25:28 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 15:25:30 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 15:25:31 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:25:31 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:25:31 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:25:31 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:25:31 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:26:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:27:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:27:33 ERROR PluginManager.error(134) - null
+java.lang.NullPointerException
+	at javafx.embed.swing.JFXPanel.getInputMethodRequests(JFXPanel.java:810)
+	at sun.awt.im.InputMethodAdapter.haveActiveClient(InputMethodAdapter.java:61)
+	at sun.awt.windows.WInputMethod.deactivate(WInputMethod.java:340)
+	at sun.awt.im.InputContext.deactivateInputMethod(InputContext.java:492)
+	at sun.awt.im.InputContext.focusLost(InputContext.java:458)
+	at sun.awt.im.InputContext.removeNotify(InputContext.java:627)
+	at java.awt.Component.removeNotify(Component.java:7016)
+	at java.awt.Container.removeNotify(Container.java:2820)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at javafx.embed.swing.JFXPanel.removeNotify(JFXPanel.java:829)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.removeNotify(Container.java:2804)
+	at javax.swing.JComponent.removeNotify(JComponent.java:4758)
+	at java.awt.Container.remove(Container.java:1206)
+	at java.awt.Container.remove(Container.java:1264)
+	at com.intellij.ui.tabs.impl.JBTabsImpl.removeDeferredNow(JBTabsImpl.java:1047)
+	at com.intellij.ui.tabs.impl.JBTabsImpl.lambda$removeDeferred$6(JBTabsImpl.java:1020)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.flushRequest(FocusManagerImpl.java:649)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.flushNow(FocusManagerImpl.java:630)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.flushIdleRequests(FocusManagerImpl.java:600)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$doWhenFocusSettlesDown$9(FocusManagerImpl.java:482)
+	at com.intellij.util.ui.UIUtil.invokeLaterIfNeeded(UIUtil.java:2493)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.doWhenFocusSettlesDown(FocusManagerImpl.java:462)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.doWhenFocusSettlesDown(IdeFocusManagerImpl.java:60)
+	at com.intellij.ui.tabs.impl.JBTabsImpl.removeDeferred(JBTabsImpl.java:1026)
+	at com.intellij.ui.tabs.impl.JBTabsImpl.lambda$executeSelectionChange$4(JBTabsImpl.java:920)
+	at com.intellij.openapi.util.ExecutionCallback.setExecuted(ExecutionCallback.java:58)
+	at com.intellij.openapi.util.ActionCallback.setDone(ActionCallback.java:72)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$null$4(FocusManagerImpl.java:290)
+	at com.intellij.util.ui.UIUtil.invokeLaterIfNeeded(UIUtil.java:2493)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$null$5(FocusManagerImpl.java:288)
+	at com.intellij.openapi.util.ActionCallback$ExecutedExecutionCallback.doWhenExecuted(ActionCallback.java:187)
+	at com.intellij.openapi.util.ActionCallback.doWhenDone(ActionCallback.java:111)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.lambda$_requestFocus$8(FocusManagerImpl.java:288)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:843)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:679)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:391)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-01-11 15:27:33 ERROR PluginManager.logErrorHeader(142) - IntelliJ IDEA 2016.3.5  Build #IC-163.13906.18
+2018-01-11 15:27:33 ERROR PluginManager.logErrorHeader(149) - JDK: 1.8.0_112-release
+2018-01-11 15:27:33 ERROR PluginManager.logErrorHeader(150) - VM: OpenJDK Server VM
+2018-01-11 15:27:33 ERROR PluginManager.logErrorHeader(151) - Vendor: JetBrains s.r.o
+2018-01-11 15:27:33 ERROR PluginManager.logErrorHeader(152) - OS: Windows 7
+2018-01-11 15:27:33 ERROR PluginManager.logErrorHeader(158) - Last Action: Switcher
+2018-01-11 15:28:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:29:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:30:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:31:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:32:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:33:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:34:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:35:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:35:38 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:35:38 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:35:38 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:35:40 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:36:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:37:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:37:42 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:37:42 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:37:42 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:37:43 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:38:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:38:55 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:38:55 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:38:55 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:38:56 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:39:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:39:53 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:39:53 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:39:53 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:39:54 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:39:54 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:40:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:40:12 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:40:12 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 15:40:13 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 15:40:15 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:40:15 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:40:15 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:40:15 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:40:15 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:41:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:42:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:42:25 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:42:25 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:42:25 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:42:27 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:42:27 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:42:38 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:42:38 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 15:42:39 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 15:42:41 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:42:41 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:42:41 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 15:42:41 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 15:42:41 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:43:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:44:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:45:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:46:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:47:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:48:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:49:07 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:49:08 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 15:49:08 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 15:49:09 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 15:49:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:50:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:51:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:52:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:53:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:54:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:55:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:56:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:57:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:58:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 15:59:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:00:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:01:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:02:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:03:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:04:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:05:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:06:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:07:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:08:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:09:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:10:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:11:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:12:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:13:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:14:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:15:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:16:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:17:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:18:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:19:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:20:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:21:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:22:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:23:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:24:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:25:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:26:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:27:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:28:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:28:16 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:28:16 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 16:28:17 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:28:18 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 16:29:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:30:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:31:05 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:31:05 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 16:31:05 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:31:06 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 16:31:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:32:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:32:21 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:32:21 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 16:32:21 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:32:23 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 16:32:42 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:32:42 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 16:32:42 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:32:43 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 16:32:44 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 16:32:48 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:32:48 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 16:32:49 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 16:32:51 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 16:32:51 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 16:32:51 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 16:32:51 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 16:32:51 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:33:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:34:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:35:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:36:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:36:19 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:36:20 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 16:36:20 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:36:22 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 16:36:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 16:36:24 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:36:24 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 16:36:25 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 16:36:27 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 16:36:27 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 16:36:27 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 16:36:27 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 16:36:27 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.error(134) - Scope is compiled, can't scan: PsiMethod:setDefaultCloseOperation
+java.lang.IllegalArgumentException: Scope is compiled, can't scan: PsiMethod:setDefaultCloseOperation
+	at com.intellij.psi.impl.search.LowLevelSearchUtil.processTreeUp(LowLevelSearchUtil.java:82)
+	at com.intellij.psi.impl.search.LowLevelSearchUtil.processElementsAtOffsets(LowLevelSearchUtil.java:224)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl$8.execute(PsiSearchHelperImpl.java:730)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl$1.processInReadAction(PsiSearchHelperImpl.java:202)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl$1.processInReadAction(PsiSearchHelperImpl.java:190)
+	at com.intellij.openapi.application.ReadActionProcessor$1.compute(ReadActionProcessor.java:32)
+	at com.intellij.openapi.application.ReadActionProcessor$1.compute(ReadActionProcessor.java:29)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:895)
+	at com.intellij.openapi.application.ReadActionProcessor.process(ReadActionProcessor.java:29)
+	at com.intellij.concurrency.JobLauncherImpl.lambda$null$0(JobLauncherImpl.java:100)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:568)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:519)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.concurrency.JobLauncherImpl.lambda$processImmediatelyIfTooFew$1(JobLauncherImpl.java:96)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1055)
+	at com.intellij.concurrency.JobLauncherImpl.processImmediatelyIfTooFew(JobLauncherImpl.java:107)
+	at com.intellij.concurrency.JobLauncherImpl.invokeConcurrentlyUnderProgress(JobLauncherImpl.java:53)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl.bulkProcessElementsWithWord(PsiSearchHelperImpl.java:210)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl.processSingleRequest(PsiSearchHelperImpl.java:897)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl.processRequests(PsiSearchHelperImpl.java:589)
+	at com.intellij.psi.search.SearchRequestQuery.processResults(SearchRequestQuery.java:45)
+	at com.intellij.util.AbstractQuery.forEach(AbstractQuery.java:79)
+	at com.intellij.util.MergeQuery.processSubQuery(MergeQuery.java:85)
+	at com.intellij.util.MergeQuery.forEach(MergeQuery.java:57)
+	at com.intellij.util.UniqueResultsQuery.process(UniqueResultsQuery.java:66)
+	at com.intellij.util.UniqueResultsQuery.forEach(UniqueResultsQuery.java:56)
+	at com.intellij.slicer.SliceUtil.processFieldUsages(SliceUtil.java:307)
+	at com.intellij.slicer.SliceUtil.processUsagesFlownDownTo(SliceUtil.java:135)
+	at com.intellij.slicer.JavaSliceUsage.processUsagesFlownDownTo(JavaSliceUsage.java:60)
+	at com.intellij.slicer.SliceUsage.lambda$processChildren$0(SliceUsage.java:78)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:879)
+	at com.intellij.slicer.SliceUsage.processChildren(SliceUsage.java:76)
+	at com.intellij.slicer.SliceNode.lambda$getChildrenUnderProgress$3(SliceNode.java:117)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:526)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.slicer.SliceManager.runInterruptibly(SliceManager.java:188)
+	at com.intellij.slicer.SliceNode.getChildrenUnderProgress(SliceNode.java:95)
+	at com.intellij.slicer.SliceNode.lambda$getChildren$0(SliceNode.java:75)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:526)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.slicer.SliceNode.getChildren(SliceNode.java:74)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.processValuesFlownTo(MagicConstantInspection.java:721)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.isAllowed(MagicConstantInspection.java:609)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.checkMagicParameterArgument(MagicConstantInspection.java:515)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.checkCall(MagicConstantInspection.java:250)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.access$100(MagicConstantInspection.java:63)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection$1.visitCallExpression(MagicConstantInspection.java:99)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:182)
+	at com.intellij.psi.impl.source.tree.java.PsiMethodCallExpressionImpl.accept(PsiMethodCallExpressionImpl.java:142)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:81)
+	at com.intellij.codeInspection.InspectionEngine.createVisitorAndAcceptElements(InspectionEngine.java:69)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.runToolOnElements(LocalInspectionsPass.java:280)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.lambda$visitPriorityElementsAndInit$3(LocalInspectionsPass.java:249)
+	at com.intellij.concurrency.ApplierCompleter.execAndForkSubTasks(ApplierCompleter.java:123)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1061)
+	at com.intellij.concurrency.ApplierCompleter.lambda$wrapInReadActionAndIndicator$0(ApplierCompleter.java:96)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:568)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:519)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.concurrency.ApplierCompleter.wrapInReadActionAndIndicator(ApplierCompleter.java:106)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:91)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(142) - IntelliJ IDEA 2016.3.5  Build #IC-163.13906.18
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(149) - JDK: 1.8.0_112-release
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(150) - VM: OpenJDK Server VM
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(151) - Vendor: JetBrains s.r.o
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(152) - OS: Windows 7
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(158) - Last Action: TaskChooser
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.error(134) - Scope is compiled, can't scan: PsiMethod:setDefaultCloseOperation
+java.lang.IllegalArgumentException: Scope is compiled, can't scan: PsiMethod:setDefaultCloseOperation
+	at com.intellij.psi.impl.search.LowLevelSearchUtil.processTreeUp(LowLevelSearchUtil.java:82)
+	at com.intellij.psi.impl.search.LowLevelSearchUtil.processElementsAtOffsets(LowLevelSearchUtil.java:224)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl$8.execute(PsiSearchHelperImpl.java:730)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl$1.processInReadAction(PsiSearchHelperImpl.java:202)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl$1.processInReadAction(PsiSearchHelperImpl.java:190)
+	at com.intellij.openapi.application.ReadActionProcessor$1.compute(ReadActionProcessor.java:32)
+	at com.intellij.openapi.application.ReadActionProcessor$1.compute(ReadActionProcessor.java:29)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:895)
+	at com.intellij.openapi.application.ReadActionProcessor.process(ReadActionProcessor.java:29)
+	at com.intellij.concurrency.JobLauncherImpl.lambda$null$0(JobLauncherImpl.java:100)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:568)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:519)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.concurrency.JobLauncherImpl.lambda$processImmediatelyIfTooFew$1(JobLauncherImpl.java:96)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1055)
+	at com.intellij.concurrency.JobLauncherImpl.processImmediatelyIfTooFew(JobLauncherImpl.java:107)
+	at com.intellij.concurrency.JobLauncherImpl.invokeConcurrentlyUnderProgress(JobLauncherImpl.java:53)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl.bulkProcessElementsWithWord(PsiSearchHelperImpl.java:210)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl.processSingleRequest(PsiSearchHelperImpl.java:897)
+	at com.intellij.psi.impl.search.PsiSearchHelperImpl.processRequests(PsiSearchHelperImpl.java:589)
+	at com.intellij.psi.search.SearchRequestQuery.processResults(SearchRequestQuery.java:45)
+	at com.intellij.util.AbstractQuery.forEach(AbstractQuery.java:79)
+	at com.intellij.util.MergeQuery.processSubQuery(MergeQuery.java:85)
+	at com.intellij.util.MergeQuery.forEach(MergeQuery.java:57)
+	at com.intellij.util.UniqueResultsQuery.process(UniqueResultsQuery.java:66)
+	at com.intellij.util.UniqueResultsQuery.forEach(UniqueResultsQuery.java:56)
+	at com.intellij.slicer.SliceUtil.processFieldUsages(SliceUtil.java:307)
+	at com.intellij.slicer.SliceUtil.processUsagesFlownDownTo(SliceUtil.java:135)
+	at com.intellij.slicer.JavaSliceUsage.processUsagesFlownDownTo(JavaSliceUsage.java:60)
+	at com.intellij.slicer.SliceUsage.lambda$processChildren$0(SliceUsage.java:78)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runReadAction(ApplicationImpl.java:879)
+	at com.intellij.slicer.SliceUsage.processChildren(SliceUsage.java:76)
+	at com.intellij.slicer.SliceNode.lambda$getChildrenUnderProgress$3(SliceNode.java:117)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:526)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.slicer.SliceManager.runInterruptibly(SliceManager.java:188)
+	at com.intellij.slicer.SliceNode.getChildrenUnderProgress(SliceNode.java:95)
+	at com.intellij.slicer.SliceNode.lambda$getChildren$0(SliceNode.java:75)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:526)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.slicer.SliceNode.getChildren(SliceNode.java:74)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.processValuesFlownTo(MagicConstantInspection.java:721)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.isAllowed(MagicConstantInspection.java:609)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.checkMagicParameterArgument(MagicConstantInspection.java:515)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.checkCall(MagicConstantInspection.java:250)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection.access$100(MagicConstantInspection.java:63)
+	at com.intellij.codeInspection.magicConstant.MagicConstantInspection$1.visitCallExpression(MagicConstantInspection.java:99)
+	at com.intellij.psi.JavaElementVisitor.visitMethodCallExpression(JavaElementVisitor.java:182)
+	at com.intellij.psi.impl.source.tree.java.PsiMethodCallExpressionImpl.accept(PsiMethodCallExpressionImpl.java:142)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:81)
+	at com.intellij.codeInspection.InspectionEngine.createVisitorAndAcceptElements(InspectionEngine.java:69)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.runToolOnElements(LocalInspectionsPass.java:280)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.lambda$visitPriorityElementsAndInit$3(LocalInspectionsPass.java:249)
+	at com.intellij.concurrency.ApplierCompleter.execAndForkSubTasks(ApplierCompleter.java:123)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1061)
+	at com.intellij.concurrency.ApplierCompleter.lambda$wrapInReadActionAndIndicator$0(ApplierCompleter.java:96)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:568)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:519)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.concurrency.ApplierCompleter.wrapInReadActionAndIndicator(ApplierCompleter.java:106)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:91)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(142) - IntelliJ IDEA 2016.3.5  Build #IC-163.13906.18
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(149) - JDK: 1.8.0_112-release
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(150) - VM: OpenJDK Server VM
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(151) - Vendor: JetBrains s.r.o
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(152) - OS: Windows 7
+2018-01-11 16:36:33 ERROR PsiSearchHelperImpl.logErrorHeader(158) - Last Action: TaskChooser
+2018-01-11 16:37:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:38:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:39:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:40:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:41:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:42:16 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:43:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:44:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:45:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:46:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:47:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:48:16 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:49:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:50:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:51:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:52:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:53:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:54:16 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:55:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:56:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:57:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:58:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 16:59:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:00:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:01:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:02:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:03:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:03:27 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:03:28 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:03:28 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:03:30 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:04:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:05:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:05:27 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:05:27 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:05:27 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:05:29 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:05:29 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:05:35 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:05:35 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 17:05:37 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 17:05:38 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:05:38 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:05:38 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:05:38 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:05:39 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:06:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:06:47 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:06:48 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:06:48 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:06:50 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:06:50 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:06:52 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:06:53 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 17:06:54 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 17:06:56 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:06:56 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:06:56 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:06:56 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:06:56 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:07:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:08:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:09:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:10:03 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:10:03 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:10:03 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:10:05 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:10:05 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:10:07 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:10:07 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 17:10:09 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 17:10:10 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:10:10 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:10:11 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:10:11 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:10:11 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:10:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:11:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:12:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:13:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:14:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:15:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:16:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:17:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:18:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:19:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:20:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:21:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:22:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:23:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:23:45 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:23:45 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:23:45 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:23:48 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:24:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:24:49 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:24:49 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:24:49 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:24:51 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:25:10 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:25:10 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:25:10 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:25:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:25:12 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:26:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:26:27 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:26:27 ERROR JavaRushUtil.getCurrentTask(68) - Ошибка получения ключа задачи.
+2018-01-11 17:26:27 ERROR JavaRushUtil.getCurrentDirectory(99) - Ошибка получения текущей директории.
+2018-01-11 17:26:27 ERROR JavaRushUtil.getCurrentDirectory(99) - Ошибка получения текущей директории.
+2018-01-11 17:26:27 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:26:27 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:26:27 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:26:30 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:26:30 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:26:33 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:26:33 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 17:26:34 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 17:26:36 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:26:36 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:26:36 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:26:36 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:26:36 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:27:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:28:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:29:12 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:30:12 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:31:12 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:32:12 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:33:12 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:34:12 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:35:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:36:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:37:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:37:36 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:37:36 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:37:36 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:37:41 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:37:41 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:37:43 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:37:44 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 17:37:45 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 17:37:47 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:37:47 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:37:47 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:37:47 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:37:47 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:38:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:39:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:40:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:41:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:42:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:43:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:43:19 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:43:19 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:43:20 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:43:22 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-01-11 17:43:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 17:43:24 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:43:25 INFO  ApacheHttpClient.getFilteredTasks(307) - responseCode = 200
+2018-01-11 17:43:26 INFO  ApacheHttpClient.getTaskTemplateInfo(324) - responseCode = 200
+2018-01-11 17:43:27 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:43:27 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:43:28 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-01-11 17:43:28 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-01-11 17:43:28 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-01-11 17:44:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:45:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:46:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:47:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:48:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:49:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:50:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:51:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:52:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:53:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:54:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:55:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:56:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:57:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:58:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 17:59:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 18:00:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 18:01:11 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-01-11 18:01:22 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-01-11 18:01:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:22 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-01-11 18:01:23 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
